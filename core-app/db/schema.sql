@@ -1,0 +1,12 @@
+DROP DATABASE IF EXISTS user_db;
+
+CREATE DATABASE user_db;
+
+USE user_db;
+
+CREATE TABLE users
+(
+  id INTEGER AUTO_INCREMENT PRIMARY KEY,
+  username VARCHAR(30) UNIQUE NOT NULL,
+  password BLOB NOT NULL
+);

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shipping Updates</title>
+  <link rel="stylesheet" href="/css/jass.css">
+  <link rel="stylesheet" href="/css/styles.css">
+</head>
+
+<body>
+  <header class="bg-info p-2 mb-5">
+    <h1 class="text-center">
+      Shipping Updates for
+      <span class="tracking-number"></span>
+    </h1>
+  </header>
+
+  <main class="container mb-5">
+    <div class="row display-none">
+      <section class="col-4">
+        <div>
+          <h2 class="bg-light p-1">Shipping To</h2>
+          <p class="address p-1"></p>
+        </div>
+        <div class="mt-5">
+          <h3 class="bg-light p-1">Expected Delivery</h3>
+          <p class="expected-date p-1"></p>
+        </div>
+      </section>
+
+      <section class="col-8">
+        <table>
+          <thead>
+            <tr class="bg-light">
+              <th class="p-1">Status</th>
+              <th class="p-1">Location</th>
+              <th class="p-1">Date</th>
+            </tr>
+          </thead>
+          <tbody class="shipping-history">
+
+          </tbody>
+        </table>
+      </section>
+    </div>
+  </main>
+
+  <script src="/js/utils.js"></script>
+  <script src="/js/tracking.js"></script>
+</body>
+
+</html>

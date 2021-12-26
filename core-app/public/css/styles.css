@@ -1,0 +1,13 @@
+table {
+  width: 100%;
+  font-size: 1.2rem;
+  text-align: left;
+}
+
+th:nth-child(7), td:nth-child(7) {
+  text-align: center;
+}
+
+textarea {
+  resize: none;
+}
